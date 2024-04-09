@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/fake_path",(req,res) => {
+app.get("/fake",(req,res) => {
   res.send('something');
 });
 
